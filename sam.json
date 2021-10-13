@@ -13,7 +13,7 @@
             "Type": "AWS::Serverless::Function",
             "Properties": {
                 "Handler": "index.handler",
-                "Runtime": "nodejs4.3",
+                "Runtime": "nodejs 14.x",
                 "CodeUri": "./",
                 "Environment": {
                     "Variables": {
